@@ -20,6 +20,14 @@
 - `Request`: Used for reading a request.
 - `Response`: Used for sending a response.
 
+## Union Type
+When we want to concatenate two or more data types.
+```
+function add(num1: Number | String, num2: Number | String){
+  ...
+}
+```
+
 
 ## Generics
 A generic is simply a type that interacts with another type.
